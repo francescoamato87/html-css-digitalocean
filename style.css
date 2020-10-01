@@ -1,0 +1,133 @@
+/* GENERAL */
+body{
+  /* padding-top:90px; */
+  font-family: 'Lato', sans-serif;
+
+}
+
+/* Utilities */
+section{
+  /* padding-top:100px; */
+  padding-bottom:100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin-top:0;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 40px;
+}
+
+.mt-30{
+  margin-top:30px;
+}
+
+.mt-60{
+  margin-top:60px;
+}
+
+.mb-30{
+  margin-bottom:30px;
+}
+
+
+/* Nav-Bar */
+.main-header{
+  margin-bottom: -20px;
+}
+.navbar .navbar-brand img{
+  height:30px;
+  line-height:30px;
+  padding:0 15px;
+
+}
+
+.main-header .navbar-nav > li > a{
+  margin-left:60%;
+  color: black;
+  font-size: 15px;
+  vertical-align: 15px;
+  font-weight: bold;
+  transition: background .4s;
+}
+
+.main-header .navbar-nav > li > a:hover,
+.main-header .navbar-nav > .active > a{
+  background: rgba(0,0,0, .2)
+}
+
+.main-header .navbar-nav > .active > a:hover{
+  background: rgba(0,0,0, .5);
+}
+
+.navbar-nav.navbar-right{
+  margin-right: 40px;
+}
+
+.navbar-form.navbar-right .btn-default{
+  border-color:blue;
+  color:blue;
+  padding:10px;
+
+}
+
+/* Hero */
+
+.main-form{
+border-radius: 10px;
+background-color: #fff;
+}
+
+.register-form{
+  padding: 15px;
+}
+
+.hero-section{
+  background-image: url(./img/bg-banner-home.jpg);
+}
+
+
+.hero-section .google-logo{
+  width:30px;
+}
+
+.main-form h2{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-form h2: last-child{
+  color: blue;
+}
+
+/* Logos */
+.logos{
+  background-color: #f3f5f9;
+}
+
+.logo img{
+  width: 120px;
+  margin-left:50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logos .link-blue{
+  font-size: 18px;
+  color:blue;
+
+}
+
+/* liste-paragrafi */
+
+.liste-paragrafi .left li{
+  border: 1px solid black;
+  height:30px;
+  border-top: none;
+  border-bottom: none;
+  border-right:none;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  list-style: none;
+  font-size: 18px;
+}

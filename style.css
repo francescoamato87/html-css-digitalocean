@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6{
   margin-top:0;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
-  line-height: 40px;
+  /* line-height: 40px; */
 }
 
 .mt-30{
@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5, h6{
 .mb-30{
   margin-bottom:30px;
 }
+
+.mb-60{
+  margin-bottom:60px;
+}
+
 
 .padd{
   padding: 30px;
@@ -182,6 +187,11 @@ background-color: #fff;
   background: linear-gradient(90deg, rgba(22,15,135,1) 0%, rgba(42,60,163,1) 38%, rgba(0,67,251,1) 68%, rgba(21,22,135,1) 100%);
 }
 
+.tables h1{
+  color:#fff;
+  font-weight: bold;
+}
+
 .tables li{
   color:white;
   list-style: none;
@@ -196,4 +206,45 @@ background-color: #fff;
 
 .tables a {
   color:#fff;
+}
+
+/* RockerBox */
+.wrapper{
+  width:600px;
+  height:400px;
+  background-color: #fff;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  margin:auto;
+}
+
+.wrapper img{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper h4{
+  padding-top: 200px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+/* GetStarted */
+.get-started h2{
+  color: white;
+  font-weight: bold;
+
+}
+
+.btn-account{
+padding: 15px;
+background-color: #fff;
+color:blue;
+border-radius: 5px;
+position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

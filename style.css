@@ -39,6 +39,10 @@ h1, h2, h3, h4, h5, h6{
   padding: 30px;
 }
 
+ul{
+  list-style: none;
+}
+
 
 /* Nav-Bar */
 .main-header{
@@ -247,4 +251,22 @@ position: absolute;
     top: 125%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* footer */
+
+.main-footer a{
+  color: #fff;
+}
+.main-footer {
+  color: #fff;
+}
+.first, .second, .third, .fourth, .fifth{
+  padding-top:60px;
+  line-height: 40px;
+}
+
+.main-footer{
+  background: linear-gradient(90deg, rgba(22,15,135,1) 0%, rgba(42,60,163,1) 38%, rgba(0,67,251,1) 68%, rgba(21,22,135,1) 100%);
+  }
 }

@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6{
   margin-bottom:30px;
 }
 
+.padd{
+  padding: 30px;
+}
+
 
 /* Nav-Bar */
 .main-header{
@@ -53,7 +57,8 @@ h1, h2, h3, h4, h5, h6{
 
 .main-header .navbar-nav > li > a:hover,
 .main-header .navbar-nav > .active > a{
-  background: rgba(0,0,0, .2)
+  background: rgba(0,0,0, .2);
+
 }
 
 .main-header .navbar-nav > .active > a:hover{
@@ -144,4 +149,51 @@ background-color: #fff;
   padding-bottom: 50px;
   list-style: none;
   font-size: 18px;
+}
+
+/* Droplet */
+.droplet{
+  background: #f3f5f9;
+}
+.droplet h2{
+  font-weight:800;
+}
+.droplet p{
+  font-size: 18px;
+}
+.droplet .points{
+  color: blue;
+  padding-left: 20px;
+}
+.droplet img{
+  margin-left: 5%;
+}
+
+.business p{
+  line-height: 20px;
+}
+
+.business a{
+  color:blue;
+}
+
+/* <!-- Tables --> */
+.tables{
+  background: linear-gradient(90deg, rgba(22,15,135,1) 0%, rgba(42,60,163,1) 38%, rgba(0,67,251,1) 68%, rgba(21,22,135,1) 100%);
+}
+
+.tables li{
+  color:white;
+  list-style: none;
+  font-size: 16px;
+  border:1px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width:200px;
+  padding-top: 20px;
+}
+
+.tables a {
+  color:#fff;
 }

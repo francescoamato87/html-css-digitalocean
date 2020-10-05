@@ -105,6 +105,11 @@ background-color: #fff;
   width:30px;
 }
 
+.main-form h1{
+  text-align: center;
+  padding-top: 30px;
+}
+
 .main-form h2{
   text-align: center;
   margin-top: 10px;
@@ -174,8 +179,15 @@ background-color: #fff;
   color: blue;
   padding-left: 20px;
 }
-.droplet img{
-  margin-left: 5%;
+
+.row-table{
+  display: table;
+}
+
+.row-table [class*="col-"]{
+float: none;
+display: table-cell;
+vertical-align: middle;
 }
 
 .business p{

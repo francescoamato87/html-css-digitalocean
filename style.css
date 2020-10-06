@@ -285,8 +285,10 @@ position: absolute;
 
 /* shark */
 .baby-shark{
-  margin: auto ;
+  margin: auto;
 }
+
+
 .box-shark{
   border:1px solid red;
   background-color:white;
